@@ -9,8 +9,10 @@ class PlatziTripsCupertino extends StatelessWidget {
   Widget build(BuildContext context) {
     // TODO: implement build
     return Scaffold(
+
       bottomNavigationBar: CupertinoTabScaffold(
         tabBar: CupertinoTabBar(
+            iconSize: 40,
             items: [
               BottomNavigationBarItem(
                   icon: Icon(Icons.home, color: Colors.indigo),
